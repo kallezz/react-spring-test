@@ -7,6 +7,11 @@ const NavBar = styled.div`
     flex-direction: row;
     align-items: center;
     background-color: #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 `;
 
 const NavBarBrand = styled.div`
@@ -56,7 +61,7 @@ const MainNav = () => {
             <NavBarBrand>
                 <NavBarLogo>
                     <Link to="/">
-                        Spring
+                        DevKM
                     </Link>
                 </NavBarLogo>
             </NavBarBrand>

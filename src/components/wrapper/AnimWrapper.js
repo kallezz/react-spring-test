@@ -6,12 +6,12 @@ const PageWrapper = styled.div`
     top: 0;
     left: 0;
     width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: -1;
-    margin-top: 1rem;
+    z-index: -10;
 `;
 
 const AnimWrapper = ({ children }) => {
